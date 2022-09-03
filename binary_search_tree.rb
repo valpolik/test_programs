@@ -5,10 +5,6 @@ class Node
     _create_node(self, start_value) unless start_value.nil?
   end
 
-  # def left_value_right
-  #   [@left, @value, @right]
-  # end
-
   def _node_exists?(node)
     return node != nil && node.value != nil
   end
